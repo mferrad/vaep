@@ -1,9 +1,9 @@
 # Evaluación de acciones en el futbol 
----
+
 ## Objetivo del análisis:
 
 El objetivo del presente trabajo es analizar el método “Valuing Actions by Establishing Probabilities (VAEP)” y cuan efectivo resulta para explicar el rendimiento de los jugadores y los equipos.
----
+
 ## Resumen de la metodología a analizar:
 
 El método VAEP se utiliza para evaluar el rendimiento individual de cada jugador tomando en cuenta cuanto mejora la probabilidad de anotar un gol y cuanto disminuye la probabilidad de conceder un gol después de una acción (pase, regate, etc).
@@ -11,7 +11,7 @@ El método VAEP se utiliza para evaluar el rendimiento individual de cada jugado
 Para cada evento del partido se toman los 3 eventos posteriores y se estima la probabilidad de anotar y conceder un gol luego de la acción que realice el jugador en 10 acciones posteriores. El puntaje de la acción quedara dado por la suma de cuanto mejora la probabilidad de anotar y cuanto empeora la probabilidad de conceder un gol. De esta manera un jugador podría ser evaluado en forma “objetiva” por la suma del puntaje asignado a todas sus acciones y no por datos sin tanto contexto como la cantidad de pases realizados, regates exitosos, etc.
 
 [Video con la explicación de la metodología](https://www.youtube.com/watch?v=xyyZLs_N1F0) 
----
+
 ## Datasets utilizados:
 
 **1)** Datos de los partidos jugados en las ligas española, inglesa e italiana en la temporada 2017/2018.
@@ -28,7 +28,7 @@ Para cada evento del partido se toman los 3 eventos posteriores y se estima la p
     * **ActionRatingAnalysis (Eng,Esp,Ita)**: Evaluación del rendimiento de cada jugador (agregando el puntaje de todas sus acciones) total y valoración del tipo de acción (disparo, pase, drible, etc) normalizada.
     * **rankingAnalysis (Eng,Esp,Ita)**: Evaluación del rendimiento total de cada jugador normalizado y sin normalizar
     * **riskAnalysis (Eng,Esp,Ita)**: Evaluación de la toma de riesgo del jugador analizando si las acciones son exitosas o no y puntuando usando la metodologia.  
----
+
 ## Scripts realizados:
 
 * Directorio en el proyecto: *Jupyter notebook/Vaep/*
@@ -36,7 +36,7 @@ Para cada evento del partido se toman los 3 eventos posteriores y se estima la p
     * **datasetCreation** : Toma los datos de los archivos CSV  y convierte los datasets que se usaran para el análisis en archivos parquet y los datasets que se usaran para visualización los guarda en una base de dato postgres. 
     * **Data Analysis** : Realiza un análisis de como mejora el porcentaje de victorias de un equipo a medida que su puntuación VAEP crece. 
     * **resultPrediction** : Se utiliza un algoritmo random Forest para inferir si un equipo le ganara un partido a otro en base a la puntuación VAEP acumulada en partidos anteriores   
----
+
 ## Visualización en superset:
 
 * Top 10 de jugadores según VAEP total
@@ -46,7 +46,7 @@ Para cada evento del partido se toman los 3 eventos posteriores y se estima la p
 * Comparación entre Messi y Cristiano Ronaldo según puntuación VAEP por acción	
 
 [Link al Dashboard](http://localhost:8088/superset/dashboard/p/4AREddrEdWQ/) (credenciales: admin/admin)
----
+
 ## Referencias
 
 * **Ambiente utilizado:**
