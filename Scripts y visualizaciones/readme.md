@@ -33,7 +33,7 @@ Para cada evento del partido se toman los 3 eventos posteriores y se estima la p
 
 * Directorio en el proyecto: *Jupyter notebook/Vaep/*
 * Archivos:
-    * **datasetCreation** : Toma los datos de los archivos CSV  y convierte los datasets que se usaran para el análisis en archivos parquet y los datasets que se usaran para visualización los guarda en una base de datos postgres. 
+    * **datasetCreation** : Toma los datos de los archivos CSV  y convierte los datasets que se usaran para el análisis en archivos parquet y los datasets que se usaran para visualización los guarda en una base de datos postgres. Este script debe ser ejecutado al menos una vez antes de los dos siguientes.
     * **Data Analysis** : Realiza un análisis de como mejora el porcentaje de victorias de un equipo a medida que su puntuación VAEP crece. 
     * **resultPrediction** : Se utiliza un algoritmo random Forest para inferir si un equipo le ganara un partido a otro en base a la puntuación VAEP acumulada en partidos anteriores   
 
