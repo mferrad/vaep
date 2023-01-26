@@ -33,7 +33,7 @@ Para cada evento del partido se toman los 3 eventos posteriores y se estima la p
 
 * Directorio en el proyecto: *Jupyter notebook/Vaep/*
 * Archivos:
-    * **datasetCreation** : Toma los datos de los archivos CSV  y convierte los datasets que se usaran para el análisis en archivos parquet y los datasets que se usaran para visualización los guarda en una base de dato postgres. 
+    * **datasetCreation** : Toma los datos de los archivos CSV  y convierte los datasets que se usaran para el análisis en archivos parquet y los datasets que se usaran para visualización los guarda en una base de datos postgres. 
     * **Data Analysis** : Realiza un análisis de como mejora el porcentaje de victorias de un equipo a medida que su puntuación VAEP crece. 
     * **resultPrediction** : Se utiliza un algoritmo random Forest para inferir si un equipo le ganara un partido a otro en base a la puntuación VAEP acumulada en partidos anteriores   
 
@@ -41,8 +41,8 @@ Para cada evento del partido se toman los 3 eventos posteriores y se estima la p
 
 * Top 10 de jugadores según VAEP total
 * Top 10 de jugadores según riesgo de jugada
-* Top 10 jugadores según vaep defensivo
-* Comparación entre real Madrid y Barcelona y cuanto influye cada jugador
+* Top 10 jugadores según VAEP defensivo
+* Comparación entre real Madrid y Barcelona y visualización de cuanto influye cada jugador
 * Comparación entre Messi y Cristiano Ronaldo según puntuación VAEP por acción	
 
 [Link al Dashboard](http://localhost:8088/superset/dashboard/p/4AREddrEdWQ/) (credenciales: admin/admin)
