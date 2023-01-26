@@ -8,7 +8,7 @@ El objetivo del presente trabajo es analizar el método “Valuing Actions by Es
 
 El método VAEP se utiliza para evaluar el rendimiento individual de cada jugador tomando en cuenta cuanto mejora la probabilidad de anotar un gol y cuanto disminuye la probabilidad de conceder un gol después de una acción (pase, regate, etc).
 	
-Para cada evento del partido se toman los 3 eventos posteriores y se estima la probabilidad de anotar y conceder un gol luego de la acción que realice el jugador en 10 acciones posteriores. El puntaje de la acción quedara dado por la suma de cuanto mejora la probabilidad de anotar y cuanto empeora la probabilidad de conceder un gol. De esta manera un jugador podría ser evaluado en forma “objetiva” por la suma del puntaje asignado a todas sus acciones y no por datos sin tanto contexto como la cantidad de pases realizados, regates exitosos, etc.
+Para cada evento del partido se toman los 3 eventos posteriores y se estima la probabilidad de anotar y conceder un gol en 10 acciones posteriores luego de la acción que realice el jugador . El puntaje de la acción quedara dado por la suma de cuanto mejora la probabilidad de anotar y cuanto empeora la probabilidad de conceder un gol. De esta manera un jugador podría ser evaluado en forma “objetiva” por la suma del puntaje asignado a todas sus acciones y no por datos sin tanto contexto como la cantidad de pases realizados, regates exitosos, etc.
 
 [Video con la explicación de la metodología](https://www.youtube.com/watch?v=xyyZLs_N1F0) 
 
