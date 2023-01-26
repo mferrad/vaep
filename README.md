@@ -25,7 +25,7 @@ Para cada evento del partido se toman los 3 eventos posteriores y se estima la p
 * Archivos:
 
     * **EventsPerMatch (Eng,Esp,Ita)**: Evaluación de cada acción realizada por partido incluyendo cuanto mejora la probabilidad de anotar cuanto empeora la probabilidad de conceder y la valuación total de la acción.
-    * **ActionRatingAnalysis (Eng,Esp,Ita)**: Evaluación del rendimiento de cada jugador (agregando el puntaje de todas sus acciones) total y valoración del tipo de acción (disparo, pase, drible, etc) normalizada.
+    * **ActionRatingAnalysis (Eng,Esp,Ita)**: Evaluación del rendimiento total de cada jugador (agregando el puntaje de todas sus acciones)  y valoración del tipo de acción (disparo, pase, drible, etc) normalizada.
     * **rankingAnalysis (Eng,Esp,Ita)**: Evaluación del rendimiento total de cada jugador normalizado y sin normalizar
     * **riskAnalysis (Eng,Esp,Ita)**: Evaluación de la toma de riesgo del jugador analizando si las acciones son exitosas o no y puntuando usando la metodologia.  
 
